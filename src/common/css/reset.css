@@ -1,0 +1,156 @@
+html {
+  --main-color: #ff6b4e;
+  --btn-color: #fff;
+  --sbb-bg: #FFB723;
+  --sbb-font: #d94d37;
+  --service-bg: #dfe1e5;
+  font-size: 14px;
+  user-select: none;
+  font-family: 微软雅黑;
+  overflow-x: hidden;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  background: #10111E;
+  color: #fff;
+  overflow: hidden;
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+blockquote,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+address,
+cite,
+code,
+em,
+th,
+i,
+var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: ".";
+}
+
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+input {
+  outline: 0;
+  outline: none;
+}
+
+input:focus::-webkit-contacts-auto-fill-button {
+  opacity: 0;
+}
+.ell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flex{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.fw{
+  flex-wrap: wrap;
+}
+.js{
+  justify-content: flex-start;
+}
+.tooltip{
+  position: relative;
+}
+.tooltip-right{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+}
+.afterh{}
+.afterh:after{
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+}
+.footer-none{
+  height: 55px;
+  opacity: 0;
+}
+.list-enter-active, .list-leave-active{
+  transition: opacity .8s;
+  opacity: 1;
+}
+.list-enter, .list-leave-to{
+  transition: opacity 0s;
+  opacity: 0;
+}
